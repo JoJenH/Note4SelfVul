@@ -22,7 +22,7 @@ obsidian-mind-map是Markdown笔记工具obsidian的一个插件，用于通过Ma
 
 Obsidian-mind-map is a plugin for the Markdown note-taking tool obsidian for generating mind maps via Markdown rendering, with 360,713 installs:
 
-![image-20231107165909462](.\images\image-20231107165909462.png)
+![image-20231107165909462](./images/image-20231107165909462.png)
 
 该插件最新版本为1.1.0，对其所有版本均可通过以下svg标签实现XSS，由于obsidian使用electron开发，借由electron实现RCE：
 
@@ -36,13 +36,13 @@ The latest version of the plugin is 1.1.0, and for all versions, XSS is availabl
 
 ### 1、创建一个markdown文档，插入payload | 1. Create a markdown document and insert the payload
 
-![image-20231107170641948](.\images\image-20231107170641948.png)
+![image-20231107170641948](./images/image-20231107170641948.png)
 
-### 2、打开mind map渲染markdown | Open mind map to render markdown
+### 2、打开mind map渲染markdown | 2. Open mind map to render markdown
 
-![image-20231107170901381](.\images\image-20231107170901381.png)
+![image-20231107170901381](./images/image-20231107170901381.png)
 
-![image-20231107171102749](.\images\image-20231107171102749.png)
+![image-20231107171102749](./images/image-20231107171102749.png)
 
 如上图，执行`C:/Windows/System32/calc.exe`
 
